@@ -1,4 +1,4 @@
-# Anonaly Detection Exercises README
+# Anomaly Detection Exercises README
 
 ## Purpose of Repository
 - House exercises for Clustering ML module classwork (Codeup Training Course)

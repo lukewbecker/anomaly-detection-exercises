@@ -121,3 +121,20 @@ def split_data(df):
     return train, validate, test
     print(train.shape, validate.shape, test.shape)
 
+# computing Entropy in a pandas series:
+
+def compute_entropy(series):
+    '''
+    Function for computing Entropy in a series. Simply enter the series name (needs to be int or float).
+    '''
+    counts = series.value_counts()
+    if len(counts)==1:
+        ent = 0
+    else:
+        value, counts = np.unique(series, return_counts=True)
+        ent = entropy(counts, base=None)
+    return ent
+
+
+
+print('Loaded all prepare functions.')

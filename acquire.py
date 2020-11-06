@@ -346,4 +346,4 @@ def get_store_data():
         return df
 
 
-print('End of file.')
+print('End of acquire.py file.')

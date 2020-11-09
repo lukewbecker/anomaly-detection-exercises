@@ -9,3 +9,5 @@ package.json
 *.xlsx
 *.tgz
 my_dictionary_simple.txt
+rapid_env.py
+anonymized-curriculum-access.txt
